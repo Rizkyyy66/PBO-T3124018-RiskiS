@@ -4,6 +4,7 @@ class fruit{
     public function __construct($name){
         $this->name = $name;
     }
+    
 }
 
 $apple = [
@@ -13,4 +14,4 @@ $apple = [
 ];
 foreach($apple as $fruit){
     echo "fruit name: " . $fruit->name . "<br>";
-}
+}       

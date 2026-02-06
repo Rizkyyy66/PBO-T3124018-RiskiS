@@ -16,5 +16,5 @@ class Mahasiswa {
 }
 
 $m1 = new mahasiswa("T312401","Riski","Teknik Informatika");
-echo $m1->getProfile();
+echo $m1->getProfile(); 
 ?>
